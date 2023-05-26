@@ -1,0 +1,94 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+:root {
+}
+button {
+	cursor: pointer;
+	border: none;
+	padding: 0;
+}
+/*--------------------------------------------------------*/
+body {
+	font-family: "Roboto Mono", sans-serif;
+	line-height: 1.5;
+	background-color: black;
+}
+/*--------------------------------------------------------*/
+.container {
+	width: 1410px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.list {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+	background-color: grey;
+}
+.item-link {
+	color: aliceblue;
+}
+.main-container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	text-align: center;
+	justify-content: center;
+	padding-top: 200px;
+}
+.title {
+	color: white;
+	font-weight: 400;
+	font-size: 20px;
+	padding: 30px 0;
+	background-color: grey;
+}
+.main-paragraph {
+	font-weight: 600;
+	font-size: 20px;
+
+	padding: 30px 0;
+	color: black;
+	background-color: grey;
+}
+.img-box {
+	margin-left: 450px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+/*--------------------------------------------------------*/
+.thanks-box {
+	display: flex;
+	flex-direction: column;
+}
+.thanks-title {
+	text-align: center;
+	color: aliceblue;
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
